@@ -1,10 +1,14 @@
-# spark-scala
-# SqlWordcount example
-# Install sbt in your EMR Cluster
+# spark-scala projects 
+
+SqlWordcount example
+
+
+Install sbt in your EMR Cluster before starting
 
 ```
-while true ; do echo "`date`,${RANDOM} "; sleep 1; done | nc -lk 9999
-git clone <>
+while true ; do echo "`date`,${RANDOM} "; sleep 1; done | nc -lk 9999 &
+
+git clone 
 
 cd SqlWordCount
 sbt clean package
